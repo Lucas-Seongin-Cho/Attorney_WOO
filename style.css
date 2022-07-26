@@ -1,0 +1,344 @@
+body {
+  font-family: 'Jua', sans-serif;
+  background-color: #e9e9a8;
+  box-sizing: border-box;
+  color: #35465d;
+}
+
+.file-upload {
+  /* background-color: #ffffff;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px; */
+	 padding: 15% 3%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: solid 1.5px #f6f7fa;
+    background-color: #f6f7fa;
+}
+
+.file-upload-btn {
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #1FB264;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #15824B;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.file-upload-btn:hover {
+  background: #1AA059;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+	padding:10%;
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+    width: 60%;
+    margin-top: 20px;
+    border: 2px dashed #35465d;
+    position: relative;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #1FB264;
+  border: 4px dashed #ffffff;
+}
+
+.try-again-text-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #15824B;
+  padding: 60px 0;
+}
+
+.file-upload-image {
+    max-height: 60%;
+    max-width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+.try-again-btn {
+  width: 60%;
+  margin: 0;
+  color: #fff;
+  background: #35465d;
+  border: solid 1.5px #35465d;
+  padding: 10px;
+  border-radius: 40px;
+  border-bottom: 4px solid #202833;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.try-again-btn:hover {
+  background: #35465d;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.try-again-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.nav-distance {
+	padding: 2.1% 7.7%;
+}
+
+.navbar-light .navbar-brand {
+  font-family: 'Jua', sans-serif;
+  line-height: 1.68;
+  text-align: left;
+  color: #35465d;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: #e9e9a8;
+}
+
+.section {
+  margin-top: 100px;
+
+}.drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #15824B;
+    padding: 60px 0;
+    font-family: 'Jua', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.title {
+  font-family: 'Jua', sans-serif;
+  line-height: 1.67;
+  text-align: center;
+  color: #35465d;
+}
+
+.subtitle {
+  font-family: 'Jua', sans-serif;
+  line-height: 1.53;
+  text-align: center; 
+  color: #35465d;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+	.navbar-brand {
+		font-size: 2rem;
+	}
+}
+
+.youtube-link {
+  font-family: 'Jua', sans-serif;
+  font size:1.5rem;
+  line-height: 1.71;
+  text-align: center;
+  color: #f73737;
+  text-decoration: underline;
+}
+
+.youtube-link: hover {
+  font-family: 'Jua', sans-serif;
+  font size:1.5rem;
+  line-height: 1.71;
+  text-align: center;
+  color: #f73737;
+  text-decoration: underline;
+}
+
+.file-upload {
+    margin: 0 auto;
+    padding: 13% 3%;
+    border-radius: 10px;
+    border: solid 1.5px #f8f3cf;
+    background-color: #f8f3cf;
+	width:80vW;
+}
+
+.image-upload-wrap {
+    width: 60%;
+    margin: 0 auto;
+    border: 2px dashed #35465d;
+    position: relative;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.image-dropping, .image-upload-wrap:hover {
+    background-color: #e9e9a8;
+    border: 2px dashed #ffffff;
+	object-fit: contain;
+}
+
+.drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 60px 0;
+    font-family: 'Jua', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.result-message {
+    font-size: 2rem;
+}
+
+.attorney-explain {
+    font-size: 1.5rem;
+}
+.우당탕탕.우영우-attorney-title {
+    color: #3ba363;
+}
+.봄날의.햇살.최수연-attorney-title {
+    color: #f75c02;
+}
+.권모술수.권민우-attorney-title {
+    color: #ca8ae1;
+}
+.츤츤상사.정명석-attorney-title {
+    color: #548dd4;
+}
+
+.봄날의.햇살.최수연-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #fbb03b;
+}
+
+.우당탕탕.우영우-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #75cc54;
+}
+
+.권모술수.권민우-bar {
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #9941b9;
+}
+
+.츤츤상사.정명석-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #77a2d7;
+}
+
+.봄날의.햇살.최수연-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #fbb03b33;
+}
+
+.우당탕탕.우영우-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color:#75cc5433;
+}
+
+.권모술수.권민우-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #9941b933;
+}
+
+.츤츤상사.정명석-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #77a2d733;
+}
+
+.bar-container {
+  height: 2.7rem;
+}
+
+.attorney-label {
+	width: 20%;
+    text-align: left;
+    height: 2rem;
+}
