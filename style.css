@@ -216,10 +216,12 @@ body {
     position: relative;
     object-fit: contain;
     border-radius: 10px;
+	background-color: #e9e9a8;
+	
 }
 
 .image-dropping, .image-upload-wrap:hover {
-    background-color: #e9e9a8;
+    background-color: #a0a077;
     border: 2px dashed #ffffff;
 	object-fit: contain;
 }
