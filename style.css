@@ -344,3 +344,8 @@ body {
     text-align: left;
     height: 2rem;
 }
+
+.ad-fit {
+	width: 80vW;
+	margin: 0 auto;
+}
