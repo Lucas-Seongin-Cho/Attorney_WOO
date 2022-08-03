@@ -184,16 +184,16 @@ body {
 
 .youtube-link {
   font-family: 'Jua', sans-serif;
-  font size:1.5rem;
+  font-size:1.5rem;
   line-height: 1.71;
   text-align: center;
   color: #f73737;
   text-decoration: underline;
 }
 
-.youtube-link: hover {
+.youtube-link:hover {
   font-family: 'Jua', sans-serif;
-  font size:1.5rem;
+  font-size:1.5rem;
   line-height: 1.71;
   text-align: center;
   color: #f73737;
