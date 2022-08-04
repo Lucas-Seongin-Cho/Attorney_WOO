@@ -345,7 +345,12 @@ body {
     height: 2rem;
 }
 
-.ad-fit {
+.ad-fit1 {
+	width: 74vW;
+	margin: 0 auto;
+}
+
+.ad-fit2 {
 	width: 74vW;
 	margin: 0 auto;
 }
