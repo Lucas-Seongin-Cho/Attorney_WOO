@@ -10,11 +10,11 @@ body {
   width: 600px;
   margin: 0 auto;
   padding: 20px; */
-	 padding: 15% 3%;
-    margin: 0 auto;
-    border-radius: 10px;
-    border: solid 1.5px #f6f7fa;
-    background-color: #f6f7fa;
+  padding: 15% 3%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: solid 1.5px #f6f7fa;
+  background-color: #f6f7fa;
 }
 
 .file-upload-btn {
@@ -45,7 +45,7 @@ body {
 }
 
 .file-upload-content {
-	padding:10%;
+  padding: 10%;
   display: none;
   text-align: center;
 }
@@ -62,12 +62,12 @@ body {
 }
 
 .image-upload-wrap {
-    width: 60%;
-    margin-top: 20px;
-    border: 2px dashed #35465d;
-    position: relative;
-    object-fit: contain;
-    border-radius: 10px;
+  width: 60%;
+  margin-top: 20px;
+  border: 2px dashed #35465d;
+  position: relative;
+  object-fit: contain;
+  border-radius: 10px;
 }
 
 .image-dropping,
@@ -93,10 +93,10 @@ body {
 }
 
 .file-upload-image {
-    max-height: 60%;
-    max-width: 60%;
-    margin: auto;
-    padding: 10px;
+  max-height: 60%;
+  max-width: 60%;
+  margin: auto;
+  padding: 10px;
 }
 
 .try-again-btn {
@@ -127,7 +127,7 @@ body {
 }
 
 .nav-distance {
-	padding: 2.1% 7.7%;
+  padding: 2.1% 7.7%;
 }
 
 .navbar-light .navbar-brand {
@@ -138,25 +138,27 @@ body {
 }
 
 .navbar-light .navbar-toggler {
-	border-color: #e9e9a8;
+  border-color: #e9e9a8;
 }
 
 .section {
   margin-top: 100px;
   text-align: center;
 
-}.drag-text h3 {
-    font-weight: 100;
-    text-transform: uppercase;
-    color: #15824B;
-    padding: 60px 0;
-    font-family: 'Jua', sans-serif;
-    font-size: 1.4rem;
-    line-height: 1.53;
-    text-align: center;
-    color: #35465d;
-    width: 50%;
-    margin: 0 auto;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #15824B;
+  padding: 60px 0;
+  font-family: 'Jua', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.53;
+  text-align: center;
+  color: #35465d;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .title {
@@ -169,7 +171,7 @@ body {
 .subtitle {
   font-family: 'Jua', sans-serif;
   line-height: 1.53;
-  text-align: center; 
+  text-align: center;
   color: #35465d;
 }
 
@@ -178,14 +180,15 @@ body {
   html {
     font-size: 10px;
   }
-	.navbar-brand {
-		font-size: 2rem;
-	}
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
 }
 
 .youtube-link {
   font-family: 'Jua', sans-serif;
-  font-size:1.5rem;
+  font-size: 1.5rem;
   line-height: 1.71;
   text-align: center;
   color: #f73737;
@@ -194,7 +197,7 @@ body {
 
 .youtube-link:hover {
   font-family: 'Jua', sans-serif;
-  font-size:1.5rem;
+  font-size: 1.5rem;
   line-height: 1.71;
   text-align: center;
   color: #f73737;
@@ -202,138 +205,143 @@ body {
 }
 
 .file-upload {
-    margin: 0 auto;
-    padding: 13% 3%;
-    border-radius: 10px;
-    border: solid 1.5px #f8f3cf;
-    background-color: #f8f3cf;
-	width:80vW;
+  margin: 0 auto;
+  padding: 13% 3%;
+  border-radius: 10px;
+  border: solid 1.5px #f8f3cf;
+  background-color: #f8f3cf;
+  width: 80vW;
 }
 
 .image-upload-wrap {
-    width: 60%;
-    margin: 0 auto;
-    border: 2px dashed #35465d;
-    position: relative;
-    object-fit: contain;
-    border-radius: 10px;
-	background-color: #e9e9a8;
-	
+  width: 60%;
+  margin: 0 auto;
+  border: 2px dashed #35465d;
+  position: relative;
+  object-fit: contain;
+  border-radius: 10px;
+  background-color: #e9e9a8;
+
 }
 
-.image-dropping, .image-upload-wrap:hover {
-    background-color: #a0a077;
-    border: 2px dashed #ffffff;
-	object-fit: contain;
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #a0a077;
+  border: 2px dashed #ffffff;
+  object-fit: contain;
 }
 
 .drag-text h3 {
-    font-weight: 100;
-    text-transform: uppercase;
-    padding: 60px 0;
-    font-family: 'Jua', sans-serif;
-    font-size: 1.4rem;
-    line-height: 1.53;
-    text-align: center;
-    color: #35465d;
-    width: 50%;
-    margin: 0 auto;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding: 60px 0;
+  font-family: 'Jua', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.53;
+  text-align: center;
+  color: #35465d;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .result-message {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .attorney-explain {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
+
 .우당탕탕.우영우-attorney-title {
-    color: #3ba363;
+  color: #3ba363;
 }
+
 .봄날의.햇살.최수연-attorney-title {
-    color: #f75c02;
+  color: #f75c02;
 }
+
 .권모술수.권민우-attorney-title {
-    color: #ca8ae1;
+  color: #ca8ae1;
 }
+
 .츤츤상사.정명석-attorney-title {
-    color: #548dd4;
+  color: #548dd4;
 }
 
 .봄날의.햇살.최수연-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    background-color: #fbb03b;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #fbb03b;
 }
 
 .우당탕탕.우영우-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    background-color: #75cc54;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #75cc54;
 }
 
 .권모술수.권민우-bar {
-	position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    background-color: #9941b9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #9941b9;
 }
 
 .츤츤상사.정명석-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    background-color: #77a2d7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #77a2d7;
 }
 
 .봄날의.햇살.최수연-box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    width: 100%;
-    background-color: #fbb03b33;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #fbb03b33;
 }
 
 .우당탕탕.우영우-box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    width: 100%;
-    background-color:#75cc5433;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #75cc5433;
 }
 
 .권모술수.권민우-box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    width: 100%;
-    background-color: #9941b933;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #9941b933;
 }
 
 .츤츤상사.정명석-box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    width: 100%;
-    background-color: #77a2d733;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #77a2d733;
 }
 
 .bar-container {
@@ -341,17 +349,22 @@ body {
 }
 
 .attorney-label {
-	width: 20%;
-    text-align: left;
-    height: 2rem;
+  width: 20%;
+  text-align: left;
+  height: 2rem;
 }
 
 .ad-fit1 {
-	width: 74vW;
-	margin: 0 auto;
+  width: 74vW;
+  margin: 0 auto;
 }
 
 .ad-fit2 {
-	width: 74vW;
-	margin: 0 auto;
+  width: 74vW;
+  margin: 0 auto;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.nav-distance {
+  background-color: #f8f3cf;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
 }
