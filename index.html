@@ -35,7 +35,7 @@
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-62de56d03b2900c3"></script>
 	</head>
 
-	<body>
+	<body onload="startTime()">
 		<nav class="navbar navbar-expand-lg navbar-light nav-distance">
 			<a class="navbar-brand" href="#">한바다 변호사 테스트</a>
 			<button
@@ -72,13 +72,35 @@
 		<section class="section">
 			<h1 class="title">인공지능 한바다 변호사 테스트</h1>
 			<h2 class="subtitle">나는 어떤 유형의 변호사 일까?</h2>
+			<!-- <h3 class="number">
+				<span class="count__num">31,226,983</span>
+				번의 테스트를 했어요.
+			</h3> -->
 		</section>
-		<section class="youtube pb-3" id="youtube-mid-link">
+		<!-- <div id="txt"></div>
+		<script>
+			function startTime() {
+			  const today = new Date();
+			  let h = today.getHours();
+			  let m = today.getMinutes();
+			  let s = today.getSeconds();
+			  m = checkTime(m);
+			  s = checkTime(s);
+			  document.getElementById('txt').innerHTML = "현재시간은 " + h + ":" + m + ":" + s +" 입니다.";
+			  setTimeout(startTime, 1000);
+			}
+			
+			function checkTime(i) {
+			  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+			  return i;
+			}
+			</script> -->
+		<!-- <section class="youtube pb-3" id="youtube-mid-link">
 			<div class="container mt-5 youtube-cover d-flex flex-row-reverse bd-highlight">
 				<!-- <img src="img/youtube-copy.jpg" alt="" class="youtube-icon"> -->
-				<a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" class="youtube-link">By 조코딩 유튜브 채널</a>
+				<!-- <a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" class="youtube-link">By 조코딩 유튜브 채널</a>
 			</div>
-		</section>
+		</section> -->
 		<script
 			class="jsbin"
 			src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
