@@ -23,7 +23,7 @@ The AttorneyWoo Face Recognition Test is a web-based application that allows use
 
 ## Usage
 
-1. Open the AttorneyWoo Face Recognition Test in a web browser.
+1. Open the AttorneyWoo Face Recognition Test in a web browser.  https://courageous-cascaron-184e7c.netlify.app/
 2. Click the "Choose File" button to upload a photo of your face.
 3. Wait for the AI model to recognize the facial features.
 4. View the results, including the most closely matched attorney and a description of their characteristics.
